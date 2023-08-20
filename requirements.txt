@@ -8,5 +8,4 @@ typing_extensions==4.7.1
 urllib3==1.26.16
 weaviate-client==3.22.1
 PyGithub==1.59.1
-gpt-engineer==0.0.8
 openai==0.27.8
