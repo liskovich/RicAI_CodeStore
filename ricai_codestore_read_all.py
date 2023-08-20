@@ -38,7 +38,7 @@ class RicaiCodestoreReadAllTool(BaseTool):
             List of files if successful. or error message.
         """
         try:
-            weaviate_url = self.get_tool_config("WEAVIATE_URL"),
+            weaviate_url = self.get_tool_config("WEAVIATE_URL")
             weaviate_key = self.get_tool_config("WEAVIATE_API_KEY")
             openai_key = self.get_tool_config("OPENAI_API_KEY")
             ghub_auth = self.get_tool_config("GITHUB_ACCESS_TOKEN")
